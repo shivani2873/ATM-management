@@ -1,4 +1,34 @@
+# 🏦 ATM & Bank Management System (C++ | OOP | File Handling)
+This project is a **console-based ATM and Bank Management System** developed using **C++**.  
+It simulates real-world banking operations such as **account creation, login, deposits, withdrawals, transaction history, and ATM card-based access**, with persistent data storage using **file handling**.
 
+The system is divided into **two main modules**:
+- Bank Account Management
+- ATM Management using Debit Card
+
+---
+
+## 🛠 Tech Stack
+- **Language:** C++ (C++17)
+- **Concepts Used:**
+  - Object-Oriented Programming (Inheritance, Encapsulation)
+  - File Handling (ifstream, ofstream)
+  - STL (`vector`)
+  - Date & Time (`ctime`)
+- **Platform:** Terminal-based (Linux / Windows)
+- **Compiler:** g++
+
+---
+
+## 📁 Project Structure
+ATM-MANAGEMENT/
+│
+├── ATM.cpp → ATM functionality using debit card
+├── bankAcc.cpp → Bank account management logic
+├── Canara-Bank-Of-India.txt → Stores last used bank account number
+├── <AccountNumber>.txt → Individual bank account data
+├── <ATMCardNumber>.txt → ATM card details
+└── bankAcc.exe → Executable (Windows)
 ---
 
 ## 🔄 Project Flow
